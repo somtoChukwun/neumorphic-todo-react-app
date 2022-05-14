@@ -1,0 +1,30 @@
+
+.bar__header{
+  min-height: 15vh;
+    display: flex;
+    padding: 0 30px;
+    color: var(--light_text);
+    justify-content: center;
+    flex-direction: column;
+   position: relative;
+}
+.icon__header{
+    flex: 1;
+    
+}
+.icon__create{
+    color: var(--light-bg);
+  
+}
+.icon__create.MuiSvgIcon-root{
+    font-size: 1.6em;
+}
+
+.logo img{
+  height: 70px;
+  
+}
+.logo{
+  justify-content: center;
+  display: flex;
+}

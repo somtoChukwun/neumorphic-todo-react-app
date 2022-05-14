@@ -1,0 +1,30 @@
+.todos__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+@media only screen and (max-width: 767px){
+    .App .todos__list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+.button__remove{
+    background-color: var(--dark-bg);
+    color: var(--light_text);
+}
+.button__remove:hover{
+    color: var(--dark_text);
+}
+
+.button__refresh.MuiButton-contained {
+    background-color: var(--theme-bg);
+    color: var(--dark_text);
+    padding: 10px 30px;
+}
+.button__refresh.MuiButton-contained:hover{
+    background-color: var(--theme-bg);
+    color: var(--dark_text);
+    }

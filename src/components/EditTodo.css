@@ -1,0 +1,38 @@
+.todo__edit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 767px){
+    .App .todo__edit{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .App .todo__edit form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .App .todo__edit .todo__input.MuiFormControl-root{
+        margin-bottom: 0px;
+    }
+    .App .todo__edit .MuiButton-contained{
+        margin-top: 10px;
+
+    }
+}
+
+.todo__edit form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo__edit .todo__input{
+    margin:0;
+}
+
+.App .todo__edit .MuiButton-contained {
+    background-color: var(--theme-bg);
+    color: var(--dark_text);
+}

@@ -1,0 +1,56 @@
+:root {
+    --add_button_bg: #3f91ff;
+    --delete_button_bg: #000000;
+    --hover_button_text: #000;
+}
+
+:root{
+    --theme-bg: #3f91ff;
+    --light-bg: #d4d6da;
+    --transparent-bg: rgba(0,0,0,0.3);
+    --medium-bg: rgba(255, 255, 255, 0.2);
+    --divider-bg: #585858;
+    --dark-divider-bg: rgba(255, 255, 255, 0.04);
+  }
+  :root {
+    --light_text: #c4cdda;
+    --dark_text: #000;
+    --placeh_text: rgb(141, 141, 141);
+}
+
+  :root{
+    --bg_dark: #272727;
+    --bg_white: #212121;
+    --bg_shadow: #141414;
+  }
+
+ 
+
+.App .MuiTypography-colorTextSecondary, .MuiInputLabel-animated{
+    background-color: var(--placeh_text);
+  color: transparent;
+  text-shadow: 2px 2px 3px var(--bg_white);
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+
+.App .MuiDivider-root{
+    background-color: var(--dark-divider-bg);
+    
+}
+.App ul .MuiDivider-root{
+  width: 90%;
+  background-color: var(--divider-bg);
+}
+.App h4{
+    font-size: calc(10px + 1vmin);
+    padding: 0px 35px;
+    
+}
+
+/*Save styles from overwriting*/
+.App .button__addtodo.MuiButton-contained {
+  background-color: var(--theme-bg);
+    color: var(--dark_text);
+}

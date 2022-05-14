@@ -1,0 +1,101 @@
+
+.App .MuiButton-contained {
+    color: var(--light_text);
+    background-color: var(--bg_dark);
+    border-radius: 30px;
+    box-shadow: -5px -5px 20px var(--bg_white),  5px 5px 20px var(--bg_shadow);
+    border: 0;
+    outline: 0;
+    padding: 10px 30px;
+    font-weight: 800;
+    transition: all 0.2s ease-in-out;
+}
+.App .MuiButton-contained:hover{
+    transition: all 0.2s ease-in-out;
+    color: var(--light_text);
+    background-color: var(--bg_dark);
+    box-shadow: -2px -2px 5px var(--bg_white), 2px 2px 5px var(--bg_shadow);
+}
+
+
+.todo__add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 767px){
+   .App .todo__add{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+
+   }
+   .App .todo__add form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+} 
+.App .todo__input.MuiFormControl-root{
+    margin:0;
+    margin-bottom: 20px;
+}
+}
+
+.todo__input{
+    background-color: var(--bg_dark);
+    border-radius: 30px;
+    box-shadow: inset 2px 2px 5px var(--bg_shadow), inset -5px -5px 10px var(--bg_white);
+  
+}
+.todo__add{
+    display: flex;
+}
+.todo__input.MuiFormControl-root{
+    padding: 0px 15px;
+    margin: 0 20px;
+}
+
+.todo__add h4{
+    padding: 5px;
+    margin: 0 10px;
+}
+
+.input__label.MuiInputLabel-animated{
+    background-color: var(--placeh_text);
+  color: transparent;
+  text-shadow: 2px 2px 3px var(--bg_white);
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+    margin: 0 10px;
+}
+.icon__create{
+    padding: 10px;
+}
+
+.App .button__addtodo.MuiButton-contained {
+    background-color: var(--theme-bg);
+    color: var(--dark_text);
+    flex:2;
+    border-radius: 30px;
+    box-shadow: -5px -5px 20px var(--bg_white),  5px 5px 20px var(--bg_shadow);
+    border: 0;
+    outline: 0;
+    padding: 10px 30px;
+    font-weight: 800;
+    transition: all 0.2s ease-in-out;
+}
+.button__addtodo.MuiButton-contained:hover{
+    background-color: var(--theme-bg);
+    color: var(--dark_text);
+    }
+
+/* Edit */
+.button__update{
+    color: white;
+    background-color: var(--add_button_bg);
+}
+.button__update:hover{
+    color: var(--hover_button_text);
+}
